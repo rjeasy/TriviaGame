@@ -10,8 +10,9 @@ h1, .jumbotron {
 }
 
 body {
-	font-family: font-family: 'Josefin Sans', sans-serif;
-	text-align: center;
+	font-family: 'Josefin Sans', sans-serif;
+  text-align: center;
+  /* background-color: cadetblue; */
 }
 
 img {

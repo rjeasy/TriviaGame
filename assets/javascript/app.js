@@ -98,7 +98,7 @@ $(document).ready(function(){
             stopTime();
             isSelected = true;
             $("#answer-holder").show();
-            $("#answer-holder").html("Wrong! The answer is: " + answer[count]);
+            $("#answer-holder").html("Not correct! The answer is: " + answer[count]);
             displayImage();
             incorrect++;
             count++;
@@ -160,31 +160,31 @@ $(document).ready(function(){
     function displayImage() {
         if(count === 0) {
             $("#image-holder").show();
-            $("#image-holder").html("<img src='../>");
+            $("#image-holder").html('<img src="assets/images/Ford-Mustang-Pony.JPG">');
         }
         else if(count === 1) {
             $("#image-holder").show();
-            $("#image-holder").html(<img src="../assets/images/Ford-Mustang-Pony.JPG">);
+            $("#image-holder").html('<img src="assets/images/Honda-Accord.JPG">');
         }
         else if(count === 2) {
             $("#image-holder").show();
-            $("#image-holder").html('<img src="../assets/images/Honda-Accord.JPG">');
+            $("#image-holder").html('<img src="assets/images/Chevrolet Impala.JPG">');
         }
         else if(count === 3) {
             $("#image-holder").show();
-            $("#image-holder").html('<img src="assets/images/Chevrolet Impala.JPG">');
+            $("#image-holder").html('<img src="assets/images/Buick-Olds-Fiesta&Caddie.JPG">');
         }
         else if(count === 4) {
             $("#image-holder").show();
-            $("#image-holder").html('<img src="assets/images/Buick-Olds-Fiesta&Caddie.JPG">');
+            $("#image-holder").html('<img src="assets/images/1953.JPG">');
         }
         else if(count === 6) {
             $("#image-holder").show();
-            $("#image-holder").html('<img src="assets/images/Model-T.JPG">');
+            $("#image-holder").html('<img src="assets/images/Jensen-FF.JPG">');
         }
         else if(count === 5) {
             $("#image-holder").show();
-            $("#image-holder").html('<img src="assets/images/Jensen-FF.JPG">');
+            $("#image-holder").html('<img src="assets/images/Model-T.JPG">');
         }
         else if(count === 7) {
             $("#image-holder").show();
